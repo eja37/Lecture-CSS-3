@@ -9,7 +9,22 @@ div{
 
 #box-1{
     background-color: blue;
+    background-image: url(butterfly.jpg);
+    background-size: contain;
+
     position: static;
+}
+
+p{
+    color: white;
+}
+
+body{
+    background-image: url(landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 #box-2{
@@ -20,8 +35,6 @@ div{
 #box-3{
     background-color: deepskyblue;
     position: relative;
-    top: 70px;
-    right: 50px;
     z-index: -1
     ;
 }
