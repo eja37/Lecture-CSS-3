@@ -14,7 +14,22 @@ div{
 
 #box-2{
     background-color: green;
-    position: relative;
-    top: 100px;
-    left: 20px;
+    position: relative; 
+}
+
+#box-3{
+    background-color: deepskyblue;
+    position: absolute;
+}
+
+#box-4{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    left: 0px;
+}
+#box-5{
+    position: sticky;
+    bottom: 0px;
+    top: 0px;
 }
