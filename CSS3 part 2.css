@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box-1{
+    background-color: blue;
+    position: static;
+}
+
+#box-2{
+    background-color: green;
+    position: relative; 
+}
+
+#box-3{
+    background-color: deepskyblue;
+    position: relative;
+    top: 70px;
+    right: 50px;
+    z-index: -1
+    ;
+}
+
+#box-4{
+    /*position is sticky*/
+}
