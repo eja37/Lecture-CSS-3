@@ -1,5 +1,5 @@
 div{
-    width: 250px;
+    width: 150px;
     height: 100px;
     background-color: crimson;
     color: white;
@@ -10,6 +10,7 @@ div{
 #box-1{
     background-color: blue;
     position: static;
+    top: 100px;
 }
 
 #box-2{
@@ -19,7 +20,21 @@ div{
 
 #box-3{
     background-color: deepskyblue;
-    position: relative;
-    z-index: -1
-    ;
+    position: relative
+}
+
+#box-5{
+}
+
+#container{
+    width: 1000px;
+    height: 300px;
+    border: 4px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
 }
