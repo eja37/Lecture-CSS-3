@@ -9,22 +9,7 @@ div{
 
 #box-1{
     background-color: blue;
-    background-image: url(butterfly.jpg);
-    background-size: contain;
-
     position: static;
-}
-
-p{
-    color: white;
-}
-
-body{
-    background-image: url(landscape.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
 #box-2{
@@ -37,8 +22,4 @@ body{
     position: relative;
     z-index: -1
     ;
-}
-
-#box-4{
-    /*position is sticky*/
 }
